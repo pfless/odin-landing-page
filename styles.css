@@ -3,6 +3,8 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .header {
@@ -10,22 +12,27 @@ body {
     flex-direction: column;
     color: white;
     background-color: #1F2937;
-}
+    justify-content: space-between;
+    gap: 42px;
+    padding: 24px 42px 100px;
 
-.logo {
-    
 }
 
 .top {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+.links {
+    gap: 24px;
 }
 
 .header-1 {
     display: flex;
-    
+    justify-content: space-between;
+    margin: 0;
 }
 .main-img {
     width: 300px;
     height:200px;
 }
+
