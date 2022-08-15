@@ -138,3 +138,16 @@ button {
     border-color: #F9FAF8;
     border-style: solid;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer p {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 12px;
+}
