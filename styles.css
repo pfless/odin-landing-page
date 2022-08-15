@@ -5,25 +5,41 @@ body {
     padding: 0;
     justify-content: space-between;
     align-items: stretch;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header p, a {
+    font: 18px;
+    color: #e5e7eb;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    color: white;
     background-color: #1F2937;
     justify-content: space-between;
     gap: 42px;
-    padding: 24px 42px 100px;
+    padding: 24px 100px 100px;
+}
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .top {
     display: flex;
     justify-content: space-between;
 }
-.links {
-    gap: 24px;
+.links a {
+    padding-left: 24px;
+    text-decoration: none;
 }
 
 .header-1 {
